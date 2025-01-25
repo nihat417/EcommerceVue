@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+    background-color: white; 
+  }
+  
+  @media (min-width: 400px) {
+    body {
+      background-color: aquamarine;
+    }
+  }
+  
