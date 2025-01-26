@@ -1,12 +1,10 @@
 <script setup>
     import { ref } from "vue";
-    import HamburgerPhoto from '../assets/hamburger.svg';
-    import ClosePhoto from '../assets/close.svg';
 
     const isMenuOpen = ref(false);
 
     function toggleMenu() {
-    isMenuOpen.value = !isMenuOpen.value;
+      isMenuOpen.value = !isMenuOpen.value;
     }
 </script>
 

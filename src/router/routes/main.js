@@ -1,7 +1,7 @@
 
 import Home from '@views/Main/Home.vue';
-import Basket from '@/views/main/Basket.vue';
-import MainLayout from '@core/MainLayout.vue';
+import Basket from '@views/main/Basket.vue';
+import MainLayout from '../../core/MainLoyaut.vue';
 
 const mainRoutes = [
     {

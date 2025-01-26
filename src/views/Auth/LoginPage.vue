@@ -12,7 +12,6 @@ export default {
     const router = useRouter();
 
     const handleLogin = () => {
-      // Простая имитация авторизации
       if (username.value === 'admin' && password.value === 'password') {
         authStore.login('fake-access-token');
         router.push('/');

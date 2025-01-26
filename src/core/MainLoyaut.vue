@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="bg-white m-auto shadow-xl shadow-grey-200 lg:w-4/5 lg:mt-20 lg:rounded-xl p-5">
+    <div class="bg-white m-auto my-10 shadow-xl shadow-grey-200 lg:w-4/5 lg:mt-20 lg:rounded-xl p-5">
         <MainHeader/>
 
         <div>

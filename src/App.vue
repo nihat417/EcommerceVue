@@ -1,8 +1,10 @@
-<script setup>
-  import MainLoyaut from './core/MainLoyaut.vue'
+<script>
+  export default {
+    name: 'App',
+  };
 </script>
 
 <template>
-  <MainLoyaut/>
+  <router-view />
 </template>
 
